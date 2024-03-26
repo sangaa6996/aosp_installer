@@ -4,7 +4,8 @@
 - Download [Android Image](https://drive.google.com/drive/folders/1GPYZedwITu3139VuEBgnMDsKReyw3ZCs)  
 # SETUP
 ## Burn android image to OrangePi
-![alt text](image-1.png)
+![alt text](image-1.png)  
+
 - Open PhoenixCard application on Windows
 - Chosse android image downloaded before
 - Choose "Start up" mode
@@ -17,6 +18,7 @@ Connect to orange pi using adb (adb is avalabled on ubuntu)
 adb connect 172.27.1.209:5555
 ```
 ![alt text](image-2.png)  
+
 List connected devices
 ```sh
 adb devices -l
@@ -38,7 +40,6 @@ Run script to install
 ```sh
 ./install.sh
 ```
-Done! Waiting orangepi to reboot
+![alt text](image-4.png)  
 
-## Terminal Screenshot
-![alt text](image.png)
+Done! Waiting orangepi to reboot
