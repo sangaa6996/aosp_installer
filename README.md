@@ -30,7 +30,7 @@ aosp_app_installer
 │   fhubservice.rc
 │
 └───fhub
-    └───fhub.sh
+    │   fhub.sh
 
 ```
 Run script to install
