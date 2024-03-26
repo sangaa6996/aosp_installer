@@ -5,10 +5,13 @@
 # SETUP
 ## Burn android image to OrangePi
 ![alt text](image-1.png)
+- Open PhoenixCard application on Windows
+- Chosse android image downloaded before
 - Choose "Start up" mode
 - Click "Burn"
 ## Power up OrangePi
-open folder in linux(or VM, wsl)
+Open folder in linux (or VM, wsl)
+Find orange pi ip address
 Connect to orange pi using adb (adb is avalabled on ubuntu)
 ```sh
 adb connect 172.27.1.209:5555
@@ -18,6 +21,19 @@ List connected devices
 adb devices -l
 ```
 ## Install apk
+Move *.apk file to this folder, like this
+```
+aosp_app_installer
+│   README.md
+│   install.sh
+│   app-release.apk
+│   fhubservice.rc
+│
+└───fhub
+    └───fhub.sh
+
+```
+Run script to install
 ```sh
 ./install.sh
 ```
