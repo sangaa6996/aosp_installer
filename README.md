@@ -42,4 +42,27 @@ Run script to install
 ```
 ![alt text](image-4.png)  
 
-Done! Waiting orangepi to reboot
+Done! Waiting orangepi to reboot  
+To reinstall app, connect and run install.sh again
+# Cheat Sheet
+Connect over ip address
+```sh
+adb connect <ip address>:5555
+```
+Shutdown
+```sh
+adb shell reboot -p
+```
+Reboot
+```sh
+adb shell reboot
+```
+Install package using apk
+```sh
+adb install app-release.apk
+```
+Uninstall package
+```sh
+adb uninstall com.example.exoplayer
+```
+**Tips**: To find package, type "adb uninstall" and push "tab" on keyboard

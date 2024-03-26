@@ -1,4 +1,4 @@
-# adb connect 172.27.1.137
+# adb connect 172.27.1.137:5555
 adb remount
 adb push fhubservice.rc /etc/init/
 adb push fhub /
