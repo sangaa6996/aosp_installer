@@ -17,13 +17,11 @@ List connected devices
 ```sh
 adb devices -l
 ```
-Install
+## Install apk
 ```sh
 ./install.sh
 ```
 Done! Waiting orangepi to reboot
-
-## Install apk
 
 ## Terminal Screenshot
 ![alt text](image.png)
