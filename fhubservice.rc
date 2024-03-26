@@ -1,0 +1,10 @@
+service runapp /system/bin/sh /fhub/fhub.sh
+   class main
+   seclabel u:r:su:s0
+   user root
+   group root
+   oneshot
+   disabled
+ 
+on property:dev.bootcomplete=1
+   start runapp
