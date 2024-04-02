@@ -85,6 +85,8 @@ Uninstall package
 adb uninstall com.example.exoplayer
 ```
 
+**Tips**: To find package, type "adb uninstall" and push "tab" twice on keyboard
+
 **Note:** all command below run inside android, add "adb shell" to run in ubuntu, ex:
 | android| ubuntu|
 |:---|:---|
@@ -126,5 +128,3 @@ Show temperature
 cat /sys/class/thermal/thermal_zone0/temp
 cat /sys/class/thermal/thermal_zone1/temp
 ```
-
-**Tips**: To find package, type "adb uninstall" and push "tab" twice on keyboard
